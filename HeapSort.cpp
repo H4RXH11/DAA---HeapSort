@@ -32,5 +32,6 @@ int main() {
     vector<int> v = {8, 7, 6, 1, 0, 9, 2};
     heapsort(v);
 
+    cout << "Sorted array via heapsort is : ";
     for (int x : v) cout << x << " ";    
 }
